@@ -125,3 +125,5 @@ def get_eigenmap(A):
     # Select the eigenvectors corresponding to the smallest eigenvalues
     d = 2
     eigenmaps = eigenvectors[:, 1:d+1]
+
+    return eigenmaps
